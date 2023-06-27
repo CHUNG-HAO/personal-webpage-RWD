@@ -1,0 +1,70 @@
+/*標頭*/
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    color:#fff
+}
+
+nav ul li:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+nav ul li a{
+    margin-right: 20px;
+    color:#fff
+}
+
+nav ul li:hover a {
+    color: #ff0000; /* 調整懸停時的文字顏色 */
+}
+
+
+.logo img {
+    height: 100px;
+}
+
+/*icon*/
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a {
+    margin-right: 20px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+}
+
+/*背景區塊1*/
+.intro-section {
+    background-image: url("/images/me.jpg");
+    background-size: 100% ;
+    background-position: center;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+    backdrop-filter: blur(10px); /* 調整模糊程度 */
+}
+
+.About {
+    text-align: center;
+}
