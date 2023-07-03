@@ -56,7 +56,7 @@ nav ul li:hover a {
 
 /*背景區塊1*/
 .intro-section {
-    background-image: url("/images/me.jpg");
+    background-image: url("website2/images/me.jpg");
     background-size: 100% ;
     background-position: center;
     padding: 100px;
