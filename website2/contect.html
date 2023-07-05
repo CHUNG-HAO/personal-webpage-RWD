@@ -41,30 +41,30 @@
     </header>
     <main>
         <section class="form">
-            <form>
-                <div>
-                    <label for="name">姓名：</label>
-                    <input type="text" name="name">
-                </div>
-                <br>
-                <div>
-                    <label for="email">郵件：</label>
-                    <input type="email" name="email">
-                </div>
-                <br>
-                <div>
-                    <label for="phone">電話：</label>
-                    <input type="text" name="phone">
-                </div>
-                <br>
-                <div>
-                    <label for="need">需求：</label>
-                    <textarea name="need" id="beed" rows="10"></textarea>
-                </div>
-                <br>
-                <button type="submit">提交表單</button>
+            <form onsubmit="event.preventDefault(); showSuccessMessage();">
+              <div>
+                <label for="name">姓名：</label>
+                <input type="text" name="name" required>
+              </div>
+              <br>
+              <div>
+                <label for="email">郵件：</label>
+                <input type="email" name="email" required>
+              </div>
+              <br>
+              <div>
+                <label for="phone">電話：</label>
+                <input type="text" name="phone" required>
+              </div>
+              <br>
+              <div>
+                <label for="need">需求：</label>
+                <textarea name="need" id="need" rows="10" required></textarea>
+              </div>
+              <br>
+              <button type="submit" name="submit" required>提交表單</button>
             </form>
-        </section>
+          </section>
         <div class="line"></div>
         <section class="content">
             <div class="content">
@@ -104,5 +104,6 @@
     </footer>
         <script src="js/app.js"></script>
         <script src="js/index.js"></script>
+        <script src="js/mail.js"></script>
 </body>
 </html>

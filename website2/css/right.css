@@ -222,3 +222,69 @@
     }
   }
   /*# sourceMappingURL=style.css.map */
+
+  @media screen and (max-width: 767px) {
+    main section.left {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto;
+      padding: 1rem;
+    }
+    
+    main section.left h1 {
+      font-size: 2.5rem;
+    }
+    
+    main section.left p {
+      font-size: 1rem;
+    }
+    
+    main section.right {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto;
+      position: static;
+      margin-top: 2rem;
+    }
+    
+    main section.right img {
+      position: static;
+      top: unset;
+      right: unset;
+      -webkit-transform: none;
+              transform: none;
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+    
+    main section.form {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto;
+    }
+    
+    main section.form form {
+      min-height: unset;
+    }
+    
+    main section.form form div input,
+    main section.form form div textarea {
+      width: 100%;
+    }
+    
+    main section.form form button {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+    
+    main section.content {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+    }
+  }
+  
