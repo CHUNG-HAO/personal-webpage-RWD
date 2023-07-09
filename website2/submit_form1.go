@@ -29,8 +29,8 @@ func submitFormHandler(w http.ResponseWriter, r *http.Request) {
 		message := fmt.Sprintf("姓名: %s\n郵件: %s\n電話: %s\n需求: %s\n", name, email, phone, need)
 
 		// 發送郵件
-		auth := smtp.PlainAuth("", "chunghao777@gmail.com", "avtc911024", "smtp.gmail.com")
-		err = smtp.SendMail("smtp.gmail.com:587", auth, "chunghao777@gmail.com", []string{"chunghao777@gmail.com"}, []byte(message))
+		auth := smtp.PlainAuth("", "@gmail.com", "", "smtp.gmail.com")
+		err = smtp.SendMail("smtp.gmail.com:587", auth, "@gmail.com", []string{"@gmail.com"}, []byte(message))
 		if err != nil {
 			http.Error(w, "無法發送郵件", http.StatusInternalServerError)
 			return
