@@ -41,7 +41,7 @@
     </header>
     <main>
         <section class="form">
-            <form onsubmit="event.preventDefault(); showSuccessMessage();">
+            <form onsubmit="event.preventDefault(); showSuccessMessage(); submitForm(); sendEmail();">
               <div>
                 <label for="name">姓名：</label>
                 <input type="text" name="name" required>
@@ -65,6 +65,20 @@
               <button type="submit" name="submit" required>提交表單</button>
             </form>
           </section>
+                <script>
+                    function sendEmail() {
+                    var name = document.getElementsByName("name")[0].value;
+                    var email = document.getElementsByName("email")[0].value;
+                    var phone = document.getElementsByName("phone")[0].value;
+                    var need = document.getElementById("need").value;
+                
+                    var subject = "新的訊息來自網站表單";
+                    var body = "姓名: " + name + "\n郵件: " + email + "\n電話: " + phone + "\n需求: " + need;
+                    var mailtoLink = "mailto:chunghao777@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+                
+                    window.location.href = mailtoLink;
+                    }
+                </script>
         <div class="line"></div>
         <section class="content">
             <div class="content">

@@ -34,8 +34,8 @@
     width: 18vw;
     height: 18vw;
     position: absolute;
-    top: 13vh;
-    right: -8vw;
+    top: 10vh;
+    right: 8vw;
     -webkit-transform: translate(-50%);
             transform: translate(-50%);
   }
