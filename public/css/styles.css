@@ -32,7 +32,7 @@ nav ul li a{
 }
 
 nav ul li:hover a {
-    color: #ff0000; /* 調整懸停時的文字顏色 */
+    color: #ff0000; 
 }
 
 
@@ -53,7 +53,7 @@ nav ul li:hover a {
 }
 
 
-/*icon*/
+
 .icons {
     display: flex;
     justify-content: space-between;
@@ -76,16 +76,14 @@ nav ul li:hover a {
   transform: scale(1.4); 
 }
 
-/*footer*/
 
-/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Footer styles */
+ 
   footer {
     background-color: #f5f5f5;
     padding: 2rem 0;
