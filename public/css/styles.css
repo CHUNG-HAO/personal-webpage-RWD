@@ -32,7 +32,7 @@ nav ul li a{
 }
 
 nav ul li:hover a {
-    color: #ff0000; /* 調整懸停時的文字顏色 */
+    color: #ff0000; 
 }
 
 
