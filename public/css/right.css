@@ -221,13 +221,12 @@
       display: none;
     }
   }
-  /*# sourceMappingURL=style.css.map */
+  /*# sourceMappingURL=style.css.lmap */
 
   @media screen and (max-width: 767px) {
     main{
       flex-direction: column;
     }
-
 
     main section.left {
       -webkit-box-flex: 1;
