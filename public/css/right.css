@@ -224,6 +224,11 @@
   /*# sourceMappingURL=style.css.map */
 
   @media screen and (max-width: 767px) {
+    main{
+      flex-direction: column;
+    }
+
+
     main section.left {
       -webkit-box-flex: 1;
           -ms-flex: 1 1 auto;
@@ -253,7 +258,7 @@
       right: unset;
       -webkit-transform: none;
               transform: none;
-      width: 100%;
+      width: 80%;
       height: auto;
       border-radius: 0;
     }
