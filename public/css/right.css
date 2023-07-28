@@ -221,13 +221,12 @@
       display: none;
     }
   }
-  /*# sourceMappingURL=style.css.map */
+  /*# sourceMappingURL=style.css.lmap */
 
   @media screen and (max-width: 767px) {
     main{
       flex-direction: column;
     }
-
 
     main section.left {
       -webkit-box-flex: 1;
@@ -301,4 +300,14 @@
 
 .icon:hover {
     transform: scale(1.4); 
+}
+
+
+td ul li a {
+  display: block; 
+  transition: transform 0.2s; 
+}
+
+td ul li a:hover {
+  transform: scale(1.1); 
 }

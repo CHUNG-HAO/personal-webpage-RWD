@@ -1,4 +1,4 @@
-# website2
-這是一個個人履歷，我正在撰寫當中
+# personal-webpage-RWD
+這是一個個人履歷，我正在撰寫當中，持續更新
 
 https://chunghao.web.app
