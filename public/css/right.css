@@ -306,6 +306,7 @@
 td ul li a {
   display: block; 
   transition: transform 0.2s; 
+  text-decoration: none;
 }
 
 td ul li a:hover {
