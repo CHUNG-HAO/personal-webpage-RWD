@@ -28,7 +28,8 @@ nav ul li:hover::before {
 
 nav ul li a{
     margin-right: 20px;
-    color:#232121
+    color:#232121;
+    text-decoration:none;
 }
 
 nav ul li:hover a {
